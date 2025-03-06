@@ -13,6 +13,10 @@ header {
     border-color: chocolate;
     border-width: 3px;
     }
+
+    #sidmeny {
+      display: flex;
+    }
   
 
   body {
