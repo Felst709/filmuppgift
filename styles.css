@@ -54,6 +54,11 @@ h1 {#c74444
   text-decoration: underline;
 }
 
+#indexbakgrund{
+  background-image: url("media/skooog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #bildtav{
   width: 300px;
  }
@@ -82,6 +87,7 @@ h1 {#c74444
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
+    border: 2px #660200;
   }
   
   #column14{
