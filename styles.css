@@ -1,12 +1,5 @@
-h1 {
-    color: rgb(199, 68, 68);
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-}
 
+/* HEADER */
 header {
     background-color: antiquewhite;
     border-bottom: dotted;
@@ -17,7 +10,28 @@ header {
     #sidmeny {
       display: flex;
     }
-  
+    .menylank {
+      text-decoration: none;
+      color: rgb(66, 32, 4);
+      color: inherit;
+      background-color: rgb(240, 204, 170);
+      padding: 15px;
+      border: 0px rgb(217, 139, 84);
+      border-radius: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    .menylank:hover {
+      color: rgb(217, 139, 84);
+      transform: scale(1.1);
+    }
+
+    
+
+    /* BODY */
 
   body {
     background-color:blanchedalmond;
@@ -33,6 +47,17 @@ margin: 10px;
 .OmOssBilder {
 width: 800px;
 }
+
+h1 {#c74444
+  color: rgb(199, 68, 68);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* FOOTER */
 
 footer {
   background-color: antiquewhite;
