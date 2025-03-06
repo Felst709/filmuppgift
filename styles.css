@@ -1,9 +1,8 @@
 
 /* HEADER */
 header {
-    background-color: rgb(65, 65, 65);
     border-bottom: dotted;
-    border-color: rgb(36, 36, 36);
+    border-color: rgb(255, 255, 255);
     border-width: 3px;
     }
 
@@ -13,8 +12,7 @@ header {
     .menylank {
       text-decoration: none;
       color: rgb(255, 255, 255);
-      
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(45, 22, 22);
       padding: 15px;
       border: 0px rgb(255, 255, 255);
       border-radius: 20px;
@@ -34,7 +32,11 @@ header {
     /* BODY */
 
   body {
-    background-color:rgb(65, 65, 65);
+    background-image: url("Media/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
   }
 
 
@@ -44,12 +46,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 margin: 10px;
 }
 
-.OmOssBilder {
-width: 800px;
-}
-
 h1 {#c74444
-  color: rgb(199, 68, 68);
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
@@ -60,7 +57,7 @@ h1 {#c74444
 /* FOOTER */
 
 footer {
-  background-color: antiquewhite;
+  color: rgb(255, 255, 255);
   border-top: dotted;
   border-color: chocolate;
   border-width: 3px;
