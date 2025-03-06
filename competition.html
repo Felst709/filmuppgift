@@ -2,20 +2,35 @@
 <head>
     <meta charset="utf-8">
     <html lang="sv">
-    <link rel="stylesheet" href="tavling.css">
-    <script src="tavling.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Tävlingssida</title>
 
 </head>
-<body>
+<body id="tavsida">
+    <header>
+        <p class="namn">NORCOPIA PICTURES</p>
+        <nav id="sidmeny">
+          <a href="index.html"class="menylank">Hem</a>
+            <a href="history.html"class="menylank">Historia</a>
+            <a href="competition.html"class="menylank">Tävling</a>
+            <a href="reviews.html"class="menylank">Recenssioner</a>
+            <a href="about.html"class="menylank">Om oss</a>
+
+
+        </nav>
+
+
+    </header>
     
     <h1>Tävla</h1>
 
-    <p id="column1">Här kan du tävla för chansen att vinna en biljett till den exklusiva förhandsvisningen av den kommande filmen "Mörkret bakom masken". 
-         
-        Fyll bara i formuläret för att delta i utlottningen av biljetter!
+    <p id="column14" class="p4">Här kan du tävla för chansen att vinna en biljett till den exklusiva förhandsvisningen av den kommande filmen "Mörkret bakom masken". 
+         50 vinnare kommer lottas ut för att få delta i en nattvisning ute i skogen där skräckfilmen visas för första gången.
+        <br>
+         Fyll bara i formuläret för att delta i utlottningen av biljetter! Genom deltagande godkänner du att dina uppgifter behandlas enligt GDPR.
     </p>
-        <form id="column2">
+        <form id="column24">
             <label for="ticketPerson">Namn:</label>
             <br>
             <input type="text" id="ticketPerson" name="ticketPerson" placeholder="Ditt namn">
@@ -30,12 +45,12 @@
             <br>
             <input type="button" onclick="submitTicketOrder()" value="Skicka svar">
         </form>
-        <!--
-    <div class="flex-container">  
-        <div><img src="media/owl2.jpeg" alt="Uggla" id="bildtav"></div>
+        
+    <div class="flex-container4">  
+        <div><img src="media/owl2.jpg" alt="Uggla" id="bildtav"></div>
         <div><img src="media/outdoor.cinema.jpeg" alt="Filmvisning" id="bildtav"></div>
-        <div><img src="media/owl1.webp" alt="Uggla" id="bildtav"></div>
-    </div> -->
+        <div><img src="media/owl1.jpg" alt="Uggla" id="bildtav"></div>
+    </div>
     <footer>
         info
     </footer>

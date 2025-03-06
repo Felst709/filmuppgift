@@ -31,7 +31,7 @@ header {
 
     /* BODY */
 
-  body {
+  .aboutbakgrund {
     background-image: url("Media/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +54,53 @@ h1 {#c74444
   text-decoration: underline;
 }
 
+#bildtav{
+  width: 300px;
+ }
+ #tavsida {
+     background-image: url("media/Gloomy_Forest.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .p4 {
+    color: #f5f3f5;
+    background-color: #660200;
+    opacity: 0.75;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+    margin-top: 5%;
+    
+  }
+  
+  form {
+    color: #f5f3f5;
+  }
+  
+  input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  #column14{
+   float: left;
+   width: 40%;
+  }
+  
+  #column24{
+   float: right;
+   width: 45%;
+  }
+  
+  
+  .flex-container4{
+   clear: both;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 50px;
+  }
 /* FOOTER */
 
 footer {
@@ -61,4 +108,5 @@ footer {
   border-top: dotted;
   border-color: chocolate;
   border-width: 3px;
+  clear: both;
 }
